@@ -2,59 +2,35 @@ var card = $("#quiz")
 
 var quiz = [
     {
-        Q: "1. How old is the actor Hugh Laurie who plays Dr. Gregory House in House MD?",
-        A: ["65", "58", "62", "59"],
-        correctA: "59"
+        Q: "1. What is Pablo Picasso's country of birth?",
+        A: ["France", "Brazil", "Italy", "Spain"],
+        correctA: "Spain"
     },
 
     {
-        Q: "2. What year did House MD first air on T.V.?",
-        A: ["2004", "2005", "2006", "2007"],
-        correctA: "2004"
+        Q: "2. How old was Picasso when he died?",
+        A: ["78", "91", "88", "89"],
+        correctA: "91"
     },
 
     {
-        Q: "3. Which of the following is not an episode title of House MD?",
-        A: ["The Mistake", "Top Secret", "It's a Wonderful Lie", "Burning Questions"],
-        correctA: "Burning Questions"
+        Q: "3. What is Pablo Picasso famous for?",
+        A: ["Cubism", "Impressionism", "Abstract Art", "Surrealism"],
+        correctA: "Cubism"
     },
 
     {
-        Q: "4. Which of the following actors was not a guest star on House MD?",
-        A: ["Amanda Seyfried", "Kristen Bell", "Leighton Meester", "Evan Peters"],
-        correctA: "Kristen Bell"
+        Q: "4. Which of these Periods is not considered part of Picasso's Periods?",
+        A: ["Crystal Period", "Green Period", "Blue Period", "Rose Period"],
+        correctA: "Green Period"
     },
 
     {
-        Q: "5. What is the name of James Wilson's dog which he bought with his second wife Bonnie Wilson?",
-        A: ["Hector", "Harris", "Hayden", "Harry"],
-        correctA: "Hector"
+        Q: "5. With whom did Pablo Picasso cofound the Cubist movement?",
+        A: ["Paul Cezanne", "Georges Braque", "Beatrice Blick", "Diego Rivera"],
+        correctA: "Georges Braque"
     },
-    {
-        Q: "6. Who plays Dr.Cuddy in House MD?",
-        A: ["Megan Mullally", "Lisa Edelstein", "Julia Louis-Dreyfus", "Julianne Moore"],
-        correctA: "Lisa Edelstein"
-    },
-    {
-        Q: "7. Why did Foreman quit?",
-        A: ["He was not happy with his salary", "He didn't like his coworkers", "He wanted to start his own practice", "He didn't want to turn into House"],
-        correctA: "He didn't want to turn into House"
-    },
-    {
-        Q: "8. In what season did a former patient shoot House?",
-        A: ["Season 1", "Season 2", "Season 3", "Season 4"],
-        correctA: "Season 2"
-    },
-    {
-        Q: "9. What is Foreman's first name on House?",
-        A: ["Robert", "James", "Chris", "Eric"],
-        correctA: "Eric"
-    },
-    {
-        Q: "What nationality is Chase on House?",
-        A: ["Canadian", "American", "Australian", "British"],
-        correctA: "Australian"
-    },
+
 
 ]
 
