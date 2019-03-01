@@ -68,11 +68,11 @@ var game = {
         clearInterval(timer);
         console.log($("input[name='question-0']:checked").val());
         if($("input[name='question-0']:checked").val() === quiz[0].correctA) { 
-            this.correct++;
+            game.correct++;
             
 
         } else {
-            this.incorrect++;
+            game.incorrect++;
         }
         game.result();
 
