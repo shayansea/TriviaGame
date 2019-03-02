@@ -62,18 +62,23 @@ var game = {
 
             }
         }
-        card.append("<button id = 'done'> Done </button>")
+        card.append("<hr><button id = 'done'> Done </button>")
     },
     done: function () {
         clearInterval(timer);
         console.log($("input[name='question-0']:checked").val());
-        if($("input[name='question-0']:checked").val() === quiz[0].correctA) { 
-            game.correct++;
-            
+        for (var i = 0; i < quiz.length; i++) {
+            if($("input[name='question-" + i + "']:checked").val() === quiz[i].correctA) { 
+                this.correct++;
+                
+    
+            } else {
+                this.incorrect++;
+            }
 
-        } else {
-            game.incorrect++;
+
         }
+        
         game.result();
 
     },
