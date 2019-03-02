@@ -39,7 +39,7 @@ var timer;
 var game = {
     correct: 0,
     incorrect: 0,
-    counter: 20,
+    counter: 15,
     countDown: function () {
         game.counter--
         $("#countDown").html(game.counter)
@@ -51,7 +51,7 @@ var game = {
     start: function () {
         $("#message").empty();
         timer = setInterval(game.countDown, 1000)
-        $("#quiz").prepend("<h2> Time Remaining:<span id = 'countDown'> 20 </span> Seconds </h2>")
+        $("#quiz").prepend("<h2> Time Remaining:<span id = 'countDown'> 15 </span> Seconds </h2>")
         $("#start").remove()
         for (var i = 0; i < quiz.length; i++) {
             card.append("<h3> " + quiz[i].Q + "<h3>");
@@ -89,6 +89,7 @@ var game = {
         $("#message").append('<button class = "start"> Start </button>');
         this.correct=0;
         this.incorrect=0;
+        
 
      
     }
